@@ -1,0 +1,10 @@
+
+Edit bench.c
+make bench
+time ./bench
+
+#cc  -I. -DHTTP_PARSER_STRICT=0  -Wall -Wextra -Werror -O3  -Wno-unused-parameter -c bench.c -o bench.o
+#cc -Wall -Wextra -Werror -O3  -Wno-unused-parameter  mrhttpparser.o bench.o -o bench
+
+
+
