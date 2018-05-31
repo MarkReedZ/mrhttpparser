@@ -1,18 +1,9 @@
 MrHTTPParser
 =============
 
-Copyright (c) 2013-2018 [Mark Reed](https://github.com/MarkReedZ)
-
-MrHTTPParser is a fast HTTP/1 request/response parser designed to be behind nginx which allows it to take some liberties with the parsing in the name of speed. Make test to run through the tests, and make bench / time bench for the benchmarks.
+MrHTTPParser is a fast HTTP/1 parser designed to be behind nginx which allows it to take some liberties with the parsing in the name of speed. Make test to run through the tests, and make bench / time bench for the benchmarks.
 
 The software is under the MIT License.
-
-Benchmark
----------
-
-
-![benchmark results](http://i.gyazo.com/a85c18d3162dfb46b485bb41e0ad443a.png)
-<img src="bench/png/str128-2.png" width="40%" />
 
 Usage
 -----
@@ -95,5 +86,3 @@ do {
 assert(pret >= 0);
 printf("decoded data is at %p (%zu bytes)\n", buf, size);
 ```
-
-
